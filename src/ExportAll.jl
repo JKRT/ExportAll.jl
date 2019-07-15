@@ -3,6 +3,7 @@ module ExportAll
     inI = []
     out = []
     res = []
+    
     for name in Base.names(__module__, all = true)
       push!(out, :(export $(name)))
     end
@@ -22,9 +23,8 @@ module ExportAll
     for e in out
       if e in inI || e == :(export include)
         continue
-      else
-        push!(res, :($(e)))
       end
+        push!(res, :($(e)))
     end
     #= Do not export things that we already have =#
     ret = Expr(:block, res...)
