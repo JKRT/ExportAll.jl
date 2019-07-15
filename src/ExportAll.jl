@@ -21,7 +21,7 @@ module ExportAll
     end
     
     for e in out
-      if e in inI || e == :(export include)
+      if e in inI || e == :(export include) || '#' in string(e)
         continue
       end
         push!(res, :($(e)))
