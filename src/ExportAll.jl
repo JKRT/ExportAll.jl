@@ -28,7 +28,6 @@ module ExportAll
     end
     #= Do not export things that we already have =#
     ret = Expr(:block, res...)
-    println(ret)
     return ret
   end
 #= :)) =#
