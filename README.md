@@ -4,8 +4,7 @@ Provides a simple macro that exports all symbol of a module (export *). Use at y
 
 It basically works by exporting all symbols that are not imported from the module from which it is called or symbols defined in any of the standard modules. I use it myself for some library modules where I need to export all functions
 
-EX: 
-```
+``` julia
  module Bar
   using ExportAll
 
