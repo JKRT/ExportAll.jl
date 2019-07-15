@@ -26,5 +26,7 @@ end
 module Foo 
   using Bar
   a = foo()
+  b = bar()
+  c = barBar()
 end
 ```
