@@ -30,3 +30,5 @@ module Foo
   c = barBar()
 end
 ```
+
+[![Build Status](https://travis-ci.org/JKRT/ExportAll.jl.svg?branch=master)](https://travis-ci.org/JKRT/ExportAll.jl) [![Coverage Status](https://coveralls.io/repos/github/JKRT/ExportAll.jl/badge.svg?branch=master)](https://coveralls.io/github/JKRT/ExportAll.jl?branch=master)
