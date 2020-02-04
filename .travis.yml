@@ -2,9 +2,7 @@ language: julia
 julia:
   - 1.0.2     # Add more versions
 coveralls: true
-before_install:# If you need to install some specific stuff besides julia packages and so on
-  - sudo apt-get update
-  - sudo apt-get install -y ....
+
 before_script:
   - echo "Starting Travis!"
 job:
@@ -12,4 +10,3 @@ job:
     - using Pkg
     - Pkg.build()
     - Pkg.test(coverage=true)
-notifications:
