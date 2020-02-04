@@ -7,7 +7,7 @@ before_script:
   - echo "Starting Travis!"
 job:
   script:
-    - using julia
+    - julia
     - using Pkg
     - Pkg.build()
     - Pkg.test(coverage=true)
