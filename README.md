@@ -1,6 +1,6 @@
 
 [![Build Status](https://travis-ci.org/JKRT/ExportAll.jl.svg?branch=master)](https://travis-ci.org/JKRT/ExportAll.jl) 
-[![Coverage Status](https://coveralls.io/repos/github/JKRT/ExportAll/badge.svg)](https://coveralls.io/github/JKRT/ExportAll)
+[![Coverage Status](https://coveralls.io/repos/github/JKRT/ExportAll/badge.svg)](https://coveralls.io/github/JKRT/ExportAll.jl)
 # ExportAll.jl
 
 Provides a simple macro that exports all symbols of a module (export *). Use at your own risk, it is also *BAD* practice to do things like this. However, it is convenient somtimes. PR:s and issues are very much welcome :)
